@@ -1,20 +1,45 @@
 @font-face {
-    font-family: 'Golos-Regular';
-    font-weight: 400;
+    font-family: 'Lato-light';
+    font-weight: 300;
     font-style: normal;
-    src: local('Golos-Regular'),
-        url('../fonts/Golos-Regular.woff2') format('woff2'),
-        url('../fonts/Golos-Regular.woff') format('font-woff'),
-        url('../fonts/Golos-Regular.ttf') format('truetype');
+    src: local('Lato-light'),
+        url('../fonts/Lato-light.woff2') format('woff2'),
+        url('../fonts/Lato-light.woff') format('font-woff');
     font-display: swap;
 }
 @font-face {
-    font-family: 'Golos-DemiBold';
-    font-weight: 600;
+    font-family: 'Lato-Regular';
+    font-weight: 400;
     font-style: normal;
-    src: local('Golos-DemiBold'),
-        url('../fonts/Golos-DemiBold.woff2') format('woff2'),
-        url('../fonts/Golos-DemiBold.woff') format('font-woff'),
-        url('../fonts/Golos-DemiBold.ttf') format('truetype');
+    src: local('Lato-Regular'),
+        url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('font-woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato-Medium';
+    font-weight: 500;
+    font-style: normal;
+    src: local('Lato-Medium'),
+        url('../fonts/Lato-Medium.woff2') format('woff2'),
+        url('../fonts/Lato-Medium.woff') format('font-woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato-Bold';
+    font-weight: 700;
+    font-style: normal;
+    src: local('Lato-Bold'),
+        url('../fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('font-woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'UniSansBold';
+    font-weight: 700;
+    font-style: normal;
+    src: local('UniSansBold'),
+        url('../fonts/UniSansBold.woff2') format('woff2'),
+        url('../fonts/UniSansBold.woff') format('font-woff');
     font-display: swap;
 }
